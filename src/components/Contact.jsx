@@ -8,7 +8,7 @@ const Contact = () => {
       <p className="mb-2"><strong>Email:</strong> apoorvgtm@gmail.com</p>
       <p className="mb-2"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/apoorv-gautam-a1253326a/" target="_blank" rel="noopener noreferrer" className="underline">Apoorv Gautam</a></p>
       <p className="mb-2"><strong>GitHub:</strong> <a href="https://github.com/Apoorv0207" target="_blank" rel="noopener noreferrer" className="underline">Apoorv0207</a></p>
-      <p className="mb-2"><strong>Resume:</strong> <a href="RESUME_LINK" target="_blank" rel="noopener noreferrer" className="underline">Download</a></p>
+      <p className="mb-2"><strong>Resume:</strong> <a href="https://drive.google.com/file/d/1RLM-ydB33sqDuDRmSm84o1I6gBCZpqkk/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="underline">Download</a></p>
     </section>
   );
 };
