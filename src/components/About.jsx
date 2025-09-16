@@ -9,7 +9,7 @@ const About = () => {
         <h2 className="text-3xl font-bold mb-4">About Me</h2>
         <p>
           I am a final-year student at Delhi Technological University, specializing in Electrical Engineering, graduating in 2026. 
-          I am proficient in Monstac technologies, EJS, and Monstac only. I am also skilled in DSA and problem-solving, 
+          I am proficient in MERN technologies, EJS,SQL,Excel,Power BI and Python. I am also skilled in DSA and problem-solving, 
           regularly practicing contests on LeetCode and GeeksforGeeks.
         </p>
       </div>
