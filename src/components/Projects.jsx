@@ -49,8 +49,10 @@ export default function Projects() {
             <div className="project-header">
               <div className="project-icon">{p.icon}</div>
               <div className="project-links">
-                {p.github && <a href={p.github} className="project-link">GitHub</a>}
-                {p.live && <a href={p.live} className="project-link">Live</a>}
+                {p.github && <a href={p.github} target="_blank" 
+  rel="noopener noreferrer"  className="project-link">GitHub</a>}
+                {p.live && <a href={p.live} target="_blank" 
+  rel="noopener noreferrer"  className="project-link">Live</a>}
               </div>
             </div>
             <div className="project-title">{p.title}</div>
