@@ -26,12 +26,12 @@ const projects = [
     live: 'https://wanderlust-1-swwk.onrender.com/listings',
   },
   {
-    icon: '✅',
-    title: 'Task Manager',
-    desc: 'CRUD task management app with a real-time dashboard showing completion stats, access + refresh token auth, and a polished Next.js + Prisma stack.',
-    tech: ['Next.js', 'TypeScript', 'Prisma', 'SQL', 'Express', 'JWT'],
-    github: 'https://github.com/Apoorv0207/task-manager',
-    live: 'https://task-manager-chi-dun.vercel.app/login',
+     icon: '🤖',
+  title: 'SpurStore AI Support',
+  desc: 'Production-ready AI customer support widget featuring Gemini-powered responses, Redis caching, PostgreSQL indexing, persistent chat sessions, and a scalable full-stack architecture.',
+  tech: ['React', 'TypeScript', 'Express', 'Prisma', 'PostgreSQL', 'Redis', 'Gemini AI'],
+  github: 'https://github.com/Apoorv0207/Spur-Store',
+  live: 'https://spur-store.vercel.app/',
   },
 ];
 import { useCardTilt } from '../hooks/useCardTilt';
