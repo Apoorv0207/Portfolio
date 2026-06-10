@@ -33,6 +33,22 @@ const projects = [
   github: 'https://github.com/Apoorv0207/Spur-Store',
   live: 'https://spur-store.vercel.app/',
   },
+  {
+     icon: '✅',
+    title: 'Task Manager',
+    desc: 'CRUD task management app with a real-time dashboard showing completion stats, access + refresh token auth, and a polished Next.js + Prisma stack.',
+    tech: ['Next.js', 'TypeScript', 'Prisma', 'SQL', 'Express', 'JWT'],
+    github: 'https://github.com/Apoorv0207/task-manager',
+    live: 'https://task-manager-chi-dun.vercel.app/login',
+  },
+  {
+    icon: '🏠',
+    title: 'Agent Mira',
+    desc: 'Agentic AI real-estate assistant utilizing a RAG pipeline. Features LangGraph tool routing between semantic document search and a mortgage calculator, backed by MongoDB Atlas Vector Search.',
+    tech: ['React', 'FastAPI', 'LangGraph', 'MongoDB', 'Gemini API', 'Tailwind CSS'],
+    github: 'https://github.com/Apoorv0207/Agent-Mira',
+    live: 'https://agent-mira-sable.vercel.app/',
+  }
 ];
 import { useCardTilt } from '../hooks/useCardTilt';
 export default function Projects() {
